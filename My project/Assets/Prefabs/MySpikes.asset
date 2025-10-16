@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65c71c47fccd2d74fa26bce49cc523bb, type: 3}
-  m_Name: Demo1MazeSettings
+  m_Script: {fileID: 11500000, guid: c73677868b23fe9478434b09a9c9b31f, type: 3}
+  m_Name: MySpikes
   m_EditorClassIdentifier: 
-  seed: 98
-  sizeX: 20
-  sizeY: 20
-  splitProbability: 0.2
+  primordialShape: 1
+  gameObject: {fileID: 2865005858089277426, guid: 914400b2b067b0845af6e5d3324d37c8, type: 3}
+  prob: 0.10000000149011612
