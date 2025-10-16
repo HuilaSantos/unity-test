@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0fcf2f2fdb602fe4ea9bda3435a817c2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 226572
+  packageName: MazeGen
+  packageVersion: 1.0.0
+  assetPath: Assets/Goldor/MazeGen/Demo/Paths/Demo2/TurnRight.prefab
+  uploadId: 688015

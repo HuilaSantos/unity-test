@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1896aa51d25d97d479315061eb678ede
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 226572
+  packageName: MazeGen
+  packageVersion: 1.0.0
+  assetPath: Assets/Goldor/MazeGen/Demo/Paths/Demo1/materials/Wall.mat
+  uploadId: 688015

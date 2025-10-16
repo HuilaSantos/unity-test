@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c9b2882ccf38d5e42b8f2e455b860286
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 226572
+  packageName: MazeGen
+  packageVersion: 1.0.0
+  assetPath: Assets/Goldor/MazeGen/Demo/DemoScript/Obstacle/ObstacleProcessor.cs
+  uploadId: 688015

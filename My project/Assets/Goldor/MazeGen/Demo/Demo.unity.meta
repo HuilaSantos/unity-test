@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 01afdb0421a45194ba9ec87e79fa6905
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 226572
+  packageName: MazeGen
+  packageVersion: 1.0.0
+  assetPath: Assets/Goldor/MazeGen/Demo/Demo.unity
+  uploadId: 688015

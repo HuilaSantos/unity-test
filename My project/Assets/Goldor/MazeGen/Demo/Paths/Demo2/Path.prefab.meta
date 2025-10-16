@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fc9a8e87dafc6ef43a996969486cde21
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 226572
+  packageName: MazeGen
+  packageVersion: 1.0.0
+  assetPath: Assets/Goldor/MazeGen/Demo/Paths/Demo2/Path.prefab
+  uploadId: 688015

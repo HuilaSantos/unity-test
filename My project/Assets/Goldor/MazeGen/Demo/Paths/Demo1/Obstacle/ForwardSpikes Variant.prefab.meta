@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 914400b2b067b0845af6e5d3324d37c8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 226572
+  packageName: MazeGen
+  packageVersion: 1.0.0
+  assetPath: Assets/Goldor/MazeGen/Demo/Paths/Demo1/Obstacle/ForwardSpikes Variant.prefab
+  uploadId: 688015

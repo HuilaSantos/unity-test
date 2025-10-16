@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: df2159743ac161349bd70aff58a0d2a0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 226572
+  packageName: MazeGen
+  packageVersion: 1.0.0
+  assetPath: Assets/Goldor/MazeGen/Demo/Paths/Demo1/TurnLeftPath.prefab
+  uploadId: 688015

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 97cd3871c4909ef42b94a9de68cd3131
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 226572
+  packageName: MazeGen
+  packageVersion: 1.0.0
+  assetPath: Assets/Goldor/MazeGen/Demo/Paths/Demo2/Split.prefab
+  uploadId: 688015
