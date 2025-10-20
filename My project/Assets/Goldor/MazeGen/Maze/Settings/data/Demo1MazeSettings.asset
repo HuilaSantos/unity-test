@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Demo1MazeSettings
   m_EditorClassIdentifier: 
   seed: 98
-  sizeX: 20
-  sizeY: 20
+  sizeX: 40
+  sizeY: 40
   splitProbability: 0.2

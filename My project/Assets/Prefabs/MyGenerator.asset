@@ -13,5 +13,10 @@ MonoBehaviour:
   m_Name: MyGenerator
   m_EditorClassIdentifier: 
   processors:
-  - {fileID: 11400000, guid: 0549d8d0a1a105b47a4878db7e68cb3f, type: 2}
   - {fileID: 11400000, guid: 9e695ecf39819c94e8fe0819a10f4612, type: 2}
+  - {fileID: 11400000, guid: 2156c8eafb231824ebe75a8344c38bb4, type: 2}
+  - {fileID: 11400000, guid: 9b8c64f45089e1a49929d4f8b5607984, type: 2}
+  - {fileID: 11400000, guid: 76937b1313c96374999ef24a35e160a7, type: 2}
+  - {fileID: 11400000, guid: fff426d8b7d07e344a1aabab6f0b7307, type: 2}
+  - {fileID: 11400000, guid: 9ddd21f9bca3a2944ae9165aed429ce2, type: 2}
+  - {fileID: 11400000, guid: 87c00660135bc0a4aa30f74da7a65413, type: 2}

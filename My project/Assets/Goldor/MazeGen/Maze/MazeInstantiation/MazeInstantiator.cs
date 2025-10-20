@@ -42,6 +42,12 @@ namespace MazeGen
         /// <param name="bakedMeshes">Put mesh that have been baked in the list (it need to be destroy manually when deleting the maze to avoid memory leak)</param>
         public void InstantiateMaze(MazeContainer maze, MazeRegistry registry, Transform rootObject, bool bakeImmediate, [CanBeNull] List<MeshFilter> bakedMeshes)
         {
+            // Reset treasure counts at the beginning of a new maze instantiation (if a counter exists)
+            if (TreasureCounter.Instance != null)
+            {
+                TreasureCounter.Instance.ResetCounts();
+            }
+
             UpdateRegex(registry);
             DateTime startTime = DateTime.Now;
             Debug.Log("Starting maze instantiation at : " + startTime);
@@ -386,10 +392,15 @@ namespace MazeGen
         
         private void DestroyChild(GameObject go)
         {
-            GameObject[] toDestroy = new GameObject[go.transform.childCount];
+            // Collect children to destroy, but skip those that should be kept alive
+            System.Collections.Generic.List<GameObject> toDestroy = new System.Collections.Generic.List<GameObject>();
             for (int i = 0; i < go.transform.childCount; i++)
             {
-                toDestroy[i] = go.transform.GetChild(i).gameObject;
+                GameObject child = go.transform.GetChild(i).gameObject;
+                if (!child.TryGetComponent<KeepAliveDuringMazeBuild>(out _))
+                {
+                    toDestroy.Add(child);
+                }
             }
 
             if (Application.isPlaying)

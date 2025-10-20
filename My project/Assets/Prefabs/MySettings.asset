@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65c71c47fccd2d74fa26bce49cc523bb, type: 3}
   m_Name: MySettings
   m_EditorClassIdentifier: 
-  seed: 98
+  seed: 101
   sizeX: 40
   sizeY: 40
   splitProbability: 0.2

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: MySpikes
   m_EditorClassIdentifier: 
   primordialShape: 1
-  gameObject: {fileID: 2865005858089277426, guid: 914400b2b067b0845af6e5d3324d37c8, type: 3}
+  gameObject: {fileID: 2865005858089277426, guid: dc2338225727cb041996d70492eebdac, type: 3}
   prob: 0.10000000149011612
