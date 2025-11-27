@@ -20,7 +20,7 @@ public class CrystalManager : MonoBehaviour
 
     void Start()
     {
-        totalCrystals = GameObject.FindGameObjectsWithTag("Crystal").Length;
+        totalCrystals = 0;//GameObject.FindGameObjectsWithTag("Crystal").Length;
         UpdateUI();
     }
 
